@@ -3,7 +3,7 @@ import json
 from git import Repo
 import os
 
-g = git.cmd.Git('https:\\github.com\\Harshitha-Butta\\Autoupdate_versions')
+g = git.cmd.Git('https://github.com//Harshitha-Butta//repo3')
 
 
 
@@ -12,7 +12,7 @@ def add_version(data, filename='versions_hyd_host2.json'):
     with open(filename,'w') as f:
         json.dump(data, f,indent=4)
         
-repo = Repo('C:\\git practice\\Connecting_to_remote_repo\\Autoupdate_versions')
+repo = Repo('C:\\git practice\\repo3')
 """origin = repo.remote(name="origin")
 origin.pull()
 repo_heads=repo.heads
