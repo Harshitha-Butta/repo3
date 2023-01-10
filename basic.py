@@ -35,7 +35,7 @@ with open('versions_hyd_host2.json') as f:
 
 add_version(data)
 
-repo.index.add('--all')
-repo.index.commit('-m', 'commit message from python script', author='harshitha.butta@gmail.com')
+g.add('--all')
+g.commit('-m', 'commit message from python script', author='harshitha.butta@gmail.com')
 origin = repo.remote(name='origin')
 origin.push()
